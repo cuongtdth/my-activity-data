@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+  xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+  xmlns:ns5="http://www.garmin.com/xmlschemas/ArbitraryTypes/v1"
+  xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+  <Activities>
+    <Activity Sport="Running">
+      <Id>2025-12-26T05:15:00Z</Id>
+      <Lap StartTime="2025-12-26T05:15:00Z">
+        <TotalTimeSeconds>1800</TotalTimeSeconds>
+        <DistanceMeters>1000</DistanceMeters>
+        <Calories>70</Calories>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <AverageHeartRateBpm><Value>142</Value></AverageHeartRateBpm>
+        <MaximumHeartRateBpm><Value>160</Value></MaximumHeartRateBpm>
+        <Cadence>84</Cadence>
+        <Track>
+          <Trackpoint><Time>2025-12-26T05:15:00Z</Time><Position><LatitudeDegrees>10.7766</LatitudeDegrees><LongitudeDegrees>106.7009</LongitudeDegrees></Position><AltitudeMeters>5.0</AltitudeMeters><DistanceMeters>0</DistanceMeters><HeartRateBpm><Value>132</Value></HeartRateBpm><Cadence>82</Cadence><Extensions><ns3:TPX><ns3:Speed>3.0</ns3:Speed><ns3:RunCadence>82</ns3:RunCadence></ns3:TPX></Extensions></Trackpoint>
+          <Trackpoint><Time>2025-12-26T05:22:30Z</Time><Position><LatitudeDegrees>10.7708</LatitudeDegrees><LongitudeDegrees>106.7035</LongitudeDegrees></Position><AltitudeMeters>6.0</AltitudeMeters><DistanceMeters>500</DistanceMeters><HeartRateBpm><Value>141</Value></HeartRateBpm><Cadence>84</Cadence><Extensions><ns3:TPX><ns3:Speed>3.1</ns3:Speed><ns3:RunCadence>84</ns3:RunCadence></ns3:TPX></Extensions></Trackpoint>
+          <Trackpoint><Time>2025-12-26T05:30:00Z</Time><Position><LatitudeDegrees>10.7682</LatitudeDegrees><LongitudeDegrees>106.7086</LongitudeDegrees></Position><AltitudeMeters>6.5</AltitudeMeters><DistanceMeters>1000</DistanceMeters><HeartRateBpm><Value>152</Value></HeartRateBpm><Cadence>85</Cadence><Extensions><ns3:TPX><ns3:Speed>3.1</ns3:Speed><ns3:RunCadence>85</ns3:RunCadence></ns3:TPX></Extensions></Trackpoint>
+        </Track>
+      </Lap>
+      <!-- Laps 2-50 with 1km each -->
+      <!-- For brevity, generate similar structure with slightly varying metrics and GPS -->
+      <Creator xsi:type="Device_t">
+        <Name>Garmin Forerunner 965</Name>
+        <UnitId>1234567890</UnitId>
+        <ProductID>3000</ProductID>
+        <Version>
+          <VersionMajor>16</VersionMajor>
+          <VersionMinor>12</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+  </Activities>
+  <Author xsi:type="Application_t">
+    <Name>Garmin Connect</Name>
+    <Build>
+      <Version>
+        <VersionMajor>5</VersionMajor>
+        <VersionMinor>0</VersionMinor>
+      </Version>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-D2449-00</PartNumber>
+  </Author>
+</TrainingCenterDatabase>
