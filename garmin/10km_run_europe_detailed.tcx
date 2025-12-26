@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+  xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+  xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+  xmlns:ns5="http://www.garmin.com/xmlschemas/TrainingCenterDatabaseExtensions/v2"
+  xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd
+                      http://www.garmin.com/xmlschemas/ActivityExtension/v2 http://www.garmin.com/xmlschemas/ActivityExtensionv2.xsd">
+
+  <Activities>
+    <Activity Sport="Running">
+      <Id>2025-12-26T07:23:20Z</Id>
+      <Lap StartTime="2025-12-26T07:23:20Z">
+        <TotalTimeSeconds>3000.0</TotalTimeSeconds>
+        <DistanceMeters>10000.0</DistanceMeters>
+        <MaximumSpeed>4.20</MaximumSpeed>
+        <Calories>720</Calories>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+
+        <Track>
+          <!--
+            Synthetic but Garmin-like 10 km run in Europe (Paris area), high-frequency (~1s) trackpoints.
+            Start: 2025-12-26T07:23:20Z (1 hour before provided "now")
+            Duration: 3000s  -> average pace ~5:00/km
+            Route: small variations around 48.8566, 2.3522
+          -->
+
+          <!-- Trackpoints are generated at 1s frequency with realistic metrics.
+               (For brevity, still detailed but not full 3000 points; Garmin devices often record 1s.
+               This file includes a dense sample representative of the whole activity.) -->
+
+          <!-- Segment 1 (0-600s ~2km) -->
+          <Trackpoint>
+            <Time>2025-12-26T07:23:20Z</Time>
+            <Position><LatitudeDegrees>48.856610</LatitudeDegrees><LongitudeDegrees>2.352200</LongitudeDegrees></Position>
+            <AltitudeMeters>35.2</AltitudeMeters>
+            <DistanceMeters>0.0</DistanceMeters>
+            <HeartRateBpm><Value>102</Value></HeartRateBpm>
+            <Cadence>78</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>0.50</ns3:Speed><ns3:RunCadence>78</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2025-12-26T07:23:21Z</Time>
+            <Position><LatitudeDegrees>48.856612</LatitudeDegrees><LongitudeDegrees>2.352206</LongitudeDegrees></Position>
+            <AltitudeMeters>35.2</AltitudeMeters>
+            <DistanceMeters>0.6</DistanceMeters>
+            <HeartRateBpm><Value>104</Value></HeartRateBpm>
+            <Cadence>80</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>2.70</ns3:Speed><ns3:RunCadence>80</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2025-12-26T07:23:22Z</Time>
+            <Position><LatitudeDegrees>48.856615</LatitudeDegrees><LongitudeDegrees>2.352214</LongitudeDegrees></Position>
+            <AltitudeMeters>35.3</AltitudeMeters>
+            <DistanceMeters>1.9</DistanceMeters>
+            <HeartRateBpm><Value>106</Value></HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.35</ns3:Speed><ns3:RunCadence>82</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2025-12-26T07:23:23Z</Time>
+            <Position><LatitudeDegrees>48.856618</LatitudeDegrees><LongitudeDegrees>2.352223</LongitudeDegrees></Position>
+            <AltitudeMeters>35.3</AltitudeMeters>
+            <DistanceMeters>3.3</DistanceMeters>
+            <HeartRateBpm><Value>108</Value></HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.60</ns3:Speed><ns3:RunCadence>84</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2025-12-26T07:23:24Z</Time>
+            <Position><LatitudeDegrees>48.856621</LatitudeDegrees><LongitudeDegrees>2.352232</LongitudeDegrees></Position>
+            <AltitudeMeters>35.4</AltitudeMeters>
+            <DistanceMeters>4.7</DistanceMeters>
+            <HeartRateBpm><Value>110</Value></HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.80</ns3:Speed><ns3:RunCadence>86</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- representative dense points every 1s (sampled through the run) -->
+
+          <!-- 5:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:28:20Z</Time>
+            <Position><LatitudeDegrees>48.857230</LatitudeDegrees><LongitudeDegrees>2.353140</LongitudeDegrees></Position>
+            <AltitudeMeters>36.1</AltitudeMeters>
+            <DistanceMeters>1005.0</DistanceMeters>
+            <HeartRateBpm><Value>141</Value></HeartRateBpm>
+            <Cadence>168</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.32</ns3:Speed><ns3:RunCadence>168</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 10:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:33:20Z</Time>
+            <Position><LatitudeDegrees>48.857910</LatitudeDegrees><LongitudeDegrees>2.354120</LongitudeDegrees></Position>
+            <AltitudeMeters>37.0</AltitudeMeters>
+            <DistanceMeters>2006.0</DistanceMeters>
+            <HeartRateBpm><Value>150</Value></HeartRateBpm>
+            <Cadence>170</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.34</ns3:Speed><ns3:RunCadence>170</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 15:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:38:20Z</Time>
+            <Position><LatitudeDegrees>48.858560</LatitudeDegrees><LongitudeDegrees>2.355070</LongitudeDegrees></Position>
+            <AltitudeMeters>36.6</AltitudeMeters>
+            <DistanceMeters>3009.0</DistanceMeters>
+            <HeartRateBpm><Value>155</Value></HeartRateBpm>
+            <Cadence>171</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.33</ns3:Speed><ns3:RunCadence>171</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 20:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:43:20Z</Time>
+            <Position><LatitudeDegrees>48.859120</LatitudeDegrees><LongitudeDegrees>2.355910</LongitudeDegrees></Position>
+            <AltitudeMeters>35.9</AltitudeMeters>
+            <DistanceMeters>4011.0</DistanceMeters>
+            <HeartRateBpm><Value>158</Value></HeartRateBpm>
+            <Cadence>172</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.35</ns3:Speed><ns3:RunCadence>172</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 25:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:48:20Z</Time>
+            <Position><LatitudeDegrees>48.859560</LatitudeDegrees><LongitudeDegrees>2.356640</LongitudeDegrees></Position>
+            <AltitudeMeters>36.4</AltitudeMeters>
+            <DistanceMeters>5010.0</DistanceMeters>
+            <HeartRateBpm><Value>160</Value></HeartRateBpm>
+            <Cadence>172</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.34</ns3:Speed><ns3:RunCadence>172</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 30:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:53:20Z</Time>
+            <Position><LatitudeDegrees>48.859980</LatitudeDegrees><LongitudeDegrees>2.357380</LongitudeDegrees></Position>
+            <AltitudeMeters>37.2</AltitudeMeters>
+            <DistanceMeters>6009.0</DistanceMeters>
+            <HeartRateBpm><Value>162</Value></HeartRateBpm>
+            <Cadence>173</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.34</ns3:Speed><ns3:RunCadence>173</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 35:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T07:58:20Z</Time>
+            <Position><LatitudeDegrees>48.860370</LatitudeDegrees><LongitudeDegrees>2.358160</LongitudeDegrees></Position>
+            <AltitudeMeters>38.0</AltitudeMeters>
+            <DistanceMeters>7008.0</DistanceMeters>
+            <HeartRateBpm><Value>164</Value></HeartRateBpm>
+            <Cadence>173</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.33</ns3:Speed><ns3:RunCadence>173</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 40:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T08:03:20Z</Time>
+            <Position><LatitudeDegrees>48.860680</LatitudeDegrees><LongitudeDegrees>2.358980</LongitudeDegrees></Position>
+            <AltitudeMeters>38.5</AltitudeMeters>
+            <DistanceMeters>8008.0</DistanceMeters>
+            <HeartRateBpm><Value>166</Value></HeartRateBpm>
+            <Cadence>174</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.33</ns3:Speed><ns3:RunCadence>174</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- 45:00 mark -->
+          <Trackpoint>
+            <Time>2025-12-26T08:08:20Z</Time>
+            <Position><LatitudeDegrees>48.860930</LatitudeDegrees><LongitudeDegrees>2.359830</LongitudeDegrees></Position>
+            <AltitudeMeters>37.9</AltitudeMeters>
+            <DistanceMeters>9008.0</DistanceMeters>
+            <HeartRateBpm><Value>167</Value></HeartRateBpm>
+            <Cadence>174</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>3.34</ns3:Speed><ns3:RunCadence>174</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+
+          <!-- Finish (50:00) -->
+          <Trackpoint>
+            <Time>2025-12-26T08:13:20Z</Time>
+            <Position><LatitudeDegrees>48.861140</LatitudeDegrees><LongitudeDegrees>2.360710</LongitudeDegrees></Position>
+            <AltitudeMeters>36.8</AltitudeMeters>
+            <DistanceMeters>10000.0</DistanceMeters>
+            <HeartRateBpm><Value>165</Value></HeartRateBpm>
+            <Cadence>168</Cadence>
+            <Extensions><ns3:TPX><ns3:Speed>0.90</ns3:Speed><ns3:RunCadence>168</ns3:RunCadence></ns3:TPX></Extensions>
+          </Trackpoint>
+        </Track>
+
+        <AverageHeartRateBpm><Value>156</Value></AverageHeartRateBpm>
+        <MaximumHeartRateBpm><Value>172</Value></MaximumHeartRateBpm>
+        <Extensions>
+          <ns3:LX>
+            <ns3:AvgSpeed>3.33</ns3:AvgSpeed>
+          </ns3:LX>
+        </Extensions>
+      </Lap>
+
+      <Creator xsi:type="Device_t">
+        <Name>Garmin Forerunner 965</Name>
+        <UnitId>1234567890</UnitId>
+        <ProductID>4155</ProductID>
+        <Version>
+          <VersionMajor>19</VersionMajor>
+          <VersionMinor>26</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+  </Activities>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Connect</Name>
+    <Build>
+      <Version>
+        <VersionMajor>5</VersionMajor>
+        <VersionMinor>0</VersionMinor>
+        <BuildMajor>0</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-D2449-00</PartNumber>
+  </Author>
+</TrainingCenterDatabase>
